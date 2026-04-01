@@ -1,5 +1,5 @@
 from typing import TypedDict,Annotated,Optional
-from langchain_openai import ChatOpenAI
+from langchain_openai import ChatOpenAI # type: ignore
 from dotenv import load_dotenv
 load_dotenv()
 import os
